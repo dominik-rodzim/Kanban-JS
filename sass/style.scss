@@ -39,9 +39,10 @@
 					display: block;
 				}
 		    }
-		    ul {
-			    padding: 0;
+		    .column-card-list {
+			padding: 0;
 	    		list-style: none;
+	    		min-height: 25px;
 	    		.card {
 	    		    background-color: rgba(255, 255, 255, .9);
 				    padding: 20px;
@@ -60,7 +61,7 @@
 				    		display: block;
 				    	}
 				    }
-	    		}
+	    			}
 			}
 			.add-card {
 				@extend .create-column;
